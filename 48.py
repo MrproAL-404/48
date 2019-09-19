@@ -10,7 +10,7 @@ try:
 	no = int(input(" Nomor ente : "))
 	msg = input(" Pesannye bro : ")
 except:
-	print("\n\t* Cek nomer and pesan lu bred! *")
+	print("\n\t* Cek nomermu atau pesanmu! *")
 	sys.exit()
 
 headers = {
@@ -33,8 +33,8 @@ data = {
 send = s.post("http://sms.payuterus.biz/alpha/send.php", headers=headers, data=data).text
 
 if 'SMS Gratis Geus Dikirim Bred' in send:
-	print(f"\n  Anjay Pengiriman sukses ]\n  [ {no} : {msg} ]\n")
-elif 'SORRY....!' in send:
-	print("\n  [ Santay bred tunggu 15 menit untuk mengirim pesan yg sama ]\n")
+	print(f"\n  [ Anjay Pengiriman sukses ]\n  [ {no} : {msg} ]\n")
+elif 'MAAF....!' in send:
+	print("\n  [ Santuy bred tunggu 15 menit untuk mengirim pesan yg sama ]\n")
 else:
-	print("\n  [ Oalahh Pengiriman lu gagal ]\n")
+	print("\n  [ Oalahh Pengiriman gagal bred ]\n")
