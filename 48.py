@@ -1,6 +1,6 @@
 # Mr ProAL
 # Indonesia Teror Family
-ef wa():
+def wa():
     os.system('xdg-open https://wa.me/628558883118?text=%20Assalamualaikum%20Mr%20ProAL%20Yang%20gans%20,%20Boleh%20minta%20ID+PASS%20Sc%20SpamCall?')
 
 
