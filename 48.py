@@ -1,10 +1,9 @@
 # Mr ProAL
 # Indonesia Teror Family
-echo "\e[1;32m
   
-   \e[1;96m   ┌┬┐┌─┐ ┌─┐┌─┐┌─┐ ┌─┐┬ \e[1;32m    
-    \e[1;96m  │││|   ├─┘|  | | ├─┤│  \e[1;32m 
-     \e[1;96m ┴ ┴┴   ┴  ┴  └─┘ ┴ ┴┴─┘ \e[1;32m 
+print   ('\e[1;96m   ┌┬┐┌─┐ ┌─┐┌─┐┌─┐ ┌─┐┬ \e[1;32m')    
+print    ('\e[1;96m  │││|   ├─┘|  | | ├─┤│  \e[1;32m') 
+print     ('\e[1;96m ┴ ┴┴   ┴  ┴  └─┘ ┴ ┴┴─┘ \e[1;32m') 
 from requests import Session
 import re, sys
 s = Session()
