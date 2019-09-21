@@ -1,9 +1,28 @@
 # Mr ProAL
 # Indonesia Teror Family
+ef wa():
+    os.system('xdg-open https://wa.me/628558883118?text=%20Assalamualaikum%20Mr%20ProAL%20Yang%20gans%20,%20Boleh%20minta%20ID+PASS%20Sc%20SpamCall?')
+
+
+def restart():
+    ngulang = sys.executable
+    os.execl(ngulang, ngulang, *sys.argv)
   
-print   ('\e[1;96m   ┌┬┐┌─┐ ┌─┐┌─┐┌─┐ ┌─┐┬ \e[1;32m')    
-print    ('\e[1;96m  │││|   ├─┘|  | | ├─┤│  \e[1;32m') 
-print     ('\e[1;96m ┴ ┴┴   ┴  ┴  └─┘ ┴ ┴┴─┘ \e[1;32m') 
+print   ('\x1b[1;91┌┬┐┌─┐ ┌─┐┌─┐┌─┐ ┌─┐┬  ')    
+print   ('\x1b[1;91│││|   ├─┘|  | | ├─┤│  ') 
+print   ('\x1b[1;91┴ ┴┴   ┴  ┴  └─┘ ┴ ┴┴─┘') 
+
+print ('\x1b[1;32Mangga bred Login')
+user = raw_input(‘Username: ‘)
+import getpass
+sandi = getpass.getpass()
+if sandi == ‘161616’ and user == ‘Mr.ProALGans’:
+print ‘Mantap Login sukses bred’
+else:
+    print 'Mampus Login GAGAL, Mangga hubungi ADMIN'
+    wa()
+    restart()
+
 from requests import Session
 import re, sys
 s = Session()
