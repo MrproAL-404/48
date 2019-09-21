@@ -1,9 +1,9 @@
 # Mr ProAL
 # Indonesia Teror Family
 
-print   ('\x1b[1;91┌┬┐┌─┐ ┌─┐┌─┐┌─┐ ┌─┐┬  ')    
-print   ('\x1b[1;91│││|   ├─┘|  | | ├─┤│  ') 
-print   ('\x1b[1;91┴ ┴┴   ┴  ┴  └─┘ ┴ ┴┴─┘') 
+         print   ('\x1b[1;91┌┬┐┌─┐ ┌─┐┌─┐┌─┐ ┌─┐┬  ')    
+         print   ('\x1b[1;91│││|   ├─┘|  | | ├─┤│  ') 
+         print   ('\x1b[1;91┴ ┴┴   ┴  ┴  └─┘ ┴ ┴┴─┘') 
 
 from requests import Session
 import re, sys
