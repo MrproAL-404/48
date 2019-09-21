@@ -1,9 +1,7 @@
 # Mr ProAL
 # Indonesia Teror Family
-
-         print   ('\x1b[1;91┌┬┐┌─┐ ┌─┐┌─┐┌─┐ ┌─┐┬  ')    
-         print   ('\x1b[1;91│││|   ├─┘|  | | ├─┤│  ') 
-         print   ('\x1b[1;91┴ ┴┴   ┴  ┴  └─┘ ┴ ┴┴─┘') 
+try:
+	print("\n\n \033[91m ┌┬┐┌─┐ ┌─┐┌─┐┌─┐ ┌─┐┬\n * │││|   ├─┘|  | | ├─┤│  \n ┴ ┴┴   ┴  ┴  └─┘ ┴ ┴┴─┘\n")
 
 from requests import Session
 import re, sys
