@@ -1,6 +1,6 @@
 # Mr ProAL
 # Indonesia Teror Family
-print "\e[1;32m
+echo "\e[1;32m
   
    \e[1;96m   ┌┬┐┌─┐ ┌─┐┌─┐┌─┐ ┌─┐┬ \e[1;32m    
     \e[1;96m  │││|   ├─┘|  | | ├─┤│  \e[1;32m 
