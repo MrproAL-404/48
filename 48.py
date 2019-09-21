@@ -1,6 +1,5 @@
 # Mr ProAL
 # Indonesia Teror Family
-#decompiled by Mr ProAL
 import os, sys
 print ('\x1b[1;32mGeus aya ID Jeung Password nya?')       
 print ('\x1b[1;32mMangga Login ')
@@ -17,7 +16,7 @@ def restart():
 
 user = raw_input('ID: ')
 import getpass
-sandi = raw_input('Password: ')
+sandi = getpass.getpass('Password: ')
 if sandi == '161616' and user == 'Mr.ProALGans':
     print ('ente geus Login')
     sys.exit
