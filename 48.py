@@ -1,11 +1,10 @@
 # Mr ProAL
 # Indonesia Teror Family
-try:
-	print("\n\n \033[91m ┌┬┐┌─┐ ┌─┐┌─┐┌─┐ ┌─┐┬\n * │││|   ├─┘|  | | ├─┤│  \n ┴ ┴┴   ┴  ┴  └─┘ ┴ ┴┴─┘\n")
-
 from requests import Session
 import re, sys
 s = Session()
+try:
+	print("\n\n \033[91m ┌┬┐┌─┐ ┌─┐┌─┐┌─┐ ┌─┐┬\n * │││|   ├─┘|  | | ├─┤│  \n ┴ ┴┴   ┴  ┴  └─┘ ┴ ┴┴─┘\n")
 
 try:
 	print("\n\n * SMS Gratis by Mr ProAL - Indonesia Teror Family\n * Gunakan kode negara elu bred(ex: 628xxxxx)\n")
