@@ -13,6 +13,7 @@ print   ('\x1b[1;91│││|   ├─┘|  | | ├─┤│  ')
 print   ('\x1b[1;91┴ ┴┴   ┴  ┴  └─┘ ┴ ┴┴─┘') 
 
 print ('\x1b[1;32Mangga bred Login')
+#mengambil input
 user = raw_input(‘Username: ‘)
 import getpass
 sandi = getpass.getpass()
