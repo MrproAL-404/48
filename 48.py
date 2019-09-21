@@ -14,7 +14,7 @@ def restart():
     os.execl(ngulang, ngulang, *sys.argv)
 
 
-user = raw_input('username: ')
+user = 'raw_input'('username: ')
 import getpass
 sandi = getpass.getpass()
 if sandi == '161616' and user == 'Mr.ProALGans':
