@@ -2,8 +2,8 @@
 # Indonesia Teror Family
 #decompiled by Mr ProAL
 import os, sys
-print '\x1b[1;32mGeus aya ID Jeung Password nya?'
-print '\x1b[1;32mMangga Login '
+print ('\x1b[1;32mGeus aya ID Jeung Password nya?')       
+print ('\x1b[1;32mMangga Login ')
 import os, sys
 
 def wa():
