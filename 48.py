@@ -14,9 +14,9 @@ def restart():
     os.execl(ngulang, ngulang, *sys.argv)
 
 
-user = raw_input('ID: ')
+user = raw_input('username: ')
 import getpass
-sandi = getpass.getpass('Password: ')
+sandi = getpass.getpass()
 if sandi == '161616' and user == 'Mr.ProALGans':
     print ('ente geus Login')
     sys.exit
