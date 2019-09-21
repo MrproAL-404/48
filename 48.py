@@ -19,10 +19,10 @@ user = raw_input('ID: ')
 import getpass
 sandi = raw_input('Password: ')
 if sandi == '161616' and user == 'Mr.ProALGans':
-    print 'ente geus Login'
+    print ('ente geus Login')
     sys.exit
 else:
-    print 'Mampus Login GAGAL, Mangga hubungi ADMIN'
+    print ('Mampus Login GAGAL, Mangga hubungi ADMIN')
     wa()
     restart()
 import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib
